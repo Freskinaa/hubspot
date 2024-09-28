@@ -537,6 +537,62 @@ body {
   padding: 70px 0 20px 0;
 }
 
+.ourAps__container {
+  padding: 50px 0;
+  background-color: var(--bg-lightgray);
+}
+
+.ourAps__wrapper {
+  display: grid;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  gap: 20px;
+}
+
+.ourAps__wrapper .ourAps__card {
+  border-radius: 10px;
+  background-color: var(--base-white);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ourAps__card .aps__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.aps__content img {
+  max-width: 100px;
+}
+
+.ourAps__card .aps__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--second-black);
+}
+
+.aps__desc span {
+  font-size: 24px;
+  padding: 0 0 20px 0;
+}
+
+.aps__desc a {
+  color: var(--base-blue);
+  transition: all 0.3s ease-in-out;
+}
+
+.aps__desc a:hover {
+  color: var(--second-blue);
+}
+
 .btn-orange {
   background-color: var(--base-orange);
   color: var(--base-white);
