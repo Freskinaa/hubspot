@@ -1,3 +1,18 @@
+:root {
+    --base-white: "#FFFFFF";
+    --base-black: "#000000";
+    --base-blue: "#0068B1";
+    --base-orange: "#FF5C35";
+    --base-gray: "#B6C7D6";
+    --second-black: "#213343";
+    --second-blue: "#213343";
+    --second-gray: "#516F90";
+    --bg-color: "#FEF4EA";
+    --bg-blue: "#B7ECEC";
+    --bg-dark: "#192733";
+    --bg-lightgray: "#F6F9FC";
+}
+
 * {
     margin: 0;
     padding: 0;
