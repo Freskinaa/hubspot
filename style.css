@@ -5,6 +5,8 @@
   --base-black: #000000;
   --base-blue: #0068b1;
   --base-orange: #ff5c35;
+  --base-darkorange:#e04826;
+  --base-lightorange:#ffebe6;
   --base-gray: #b6c7d6;
   --second-black: #213343;
   --second-blue: #213343;
@@ -127,6 +129,7 @@ body {
   color: var(--base-white);
   border: 2px solid var(--base-orange);
   border-radius: 8px;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-white {
@@ -134,6 +137,7 @@ body {
   color: var(--base-orange);
   border: 2px solid var(--base-orange);
   border-radius: 8px;
+  transition: color 0.3s ease-in-out;
 }
 
 .small-btn {
@@ -148,6 +152,14 @@ body {
   font-size: 18px;
 }
 
+.btn-orange:hover {
+  background-color: var(--base-darkorange);
+  border-color: var(--base-darkorange);
+}
+
+.btn-white:hover {
+  background-color: var(--base-lightorange);
+}
 
 .btn__group {
   display: flex;
