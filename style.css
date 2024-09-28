@@ -666,6 +666,45 @@ body {
   font-weight: 300;
 }
 
+.growing__container {
+  padding: 30px 0;
+  background-color: var(--base-white);
+}
+
+.growing__wrapper {
+  display: grid;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  gap: 20px;
+}
+
+.grow__text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  text-align: left; 
+}
+.grow__text h2{
+  color: var(--second-black);
+  font-weight: 500;
+}
+
+.btn__group {
+  margin-top: 20px;
+}
+
+.growing__image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.growing__image img {
+  width: 70%;
+  height: auto;
+}
+
 .btn-orange {
   background-color: var(--base-orange);
   color: var(--base-white);
