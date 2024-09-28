@@ -593,6 +593,79 @@ body {
   color: var(--second-blue);
 }
 
+.using__container {
+  background-color: var(--bg-lightgray);
+  padding: 25px 0;
+}
+
+.using__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ padding-bottom: 30px;
+}
+
+.using__text {
+  text-align: center;
+  color: var(--second-black);
+  
+}
+.using__text h2{
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+.using__cards {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  width: 100%;
+}
+
+.using__card {
+  padding: 20px;
+  background-color: var(--base-white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.using__img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.using__img img {
+  width: 20%;
+}
+
+.using__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.using__content a h3{
+  padding: 15px 0;
+  font-size: 16px;
+  color: var(--base-blue);
+}
+
+.using__content p{
+  font-size: 14px;
+  color: var(--second-black);
+  font-weight: 300;
+}
+
 .btn-orange {
   background-color: var(--base-orange);
   color: var(--base-white);
