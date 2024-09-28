@@ -370,6 +370,34 @@ body {
   padding-top: 20px;
 }
 
+.breeze__container {
+  padding: 50px 0;
+  background-color: var(--bg-blue);
+}
+
+.breeze__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.breeze__wrapper .breeze__text {
+  max-width: 80%;
+}
+
+.breeze__text h2 {
+  font-size: 24px;
+  color: var(--second-black);
+}
+
+.breeze__text p {
+  font-size: 16px;
+  color: var(--second-black);
+  font-weight: 300;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
 .btn-orange {
   background-color: var(--base-orange);
   color: var(--base-white);
