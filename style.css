@@ -85,10 +85,10 @@ body {
   justify-content: center;
 }
 
-.hero__wrapper {
+.hero__wrapper, .market__wrapper {
   display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 40px;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  gap: 20px;
 }
 
 .hero__wrapper .hero__image {
@@ -99,7 +99,7 @@ body {
   width: 100%;
 }
 
-.hero__text {
+.hero__text, .market__text {
   display:  flex;
   flex-direction: column;
   align-items: start;
@@ -117,7 +117,7 @@ body {
   color: var(--second-black);
 }
 
-.hero__text p {
+.hero__text p, .market__text p {
   font-size: 16px;
   padding: 16px 0;
   color: var(--second-black);
@@ -171,6 +171,16 @@ body {
 }
 
 .slider__arrow:hover span {
+  color: var(--second-black);
+}
+
+.market__container {
+  background-color: var(--bg-lightgray);
+  padding: 50px 0;
+}
+
+.market__text h2 {
+  font-size: 36px;
   color: var(--second-black);
 }
 
