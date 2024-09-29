@@ -1,11 +1,859 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>HubSpot</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__content">
+          <div class="nav__links">
+            <img src="./images/logo.svg" alt="logo" />
+            <ul>
+              <li><a href="">Products</a></li>
+              <li><a href="">Price</a></li>
+              <li><a href="">Solutions</a></li>
+              <li><a href="">Resources</a></li>
+            </ul>
+          </div>
+          <div class="btn__group">
+            <button class="small-btn btn-orange">Get a demo</button>
+            <button class="small-btn btn-white">Get started free</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="hero" class="hero__section">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__text">
+            <h5>HUBSPOT CUSTOMER PLATFORM</h5>
+            <h1>Grow better with HubSpot</h1>
+            <p>
+              Software that's powerful, not overpowering. Seamlessly connect
+              your data, teams, and customers on one AI-powered customer
+              platform that grows with your business.
+            </p>
+            <div class="btn__group responsive__btn">
+              <button class="large-btn btn-orange">Get a demo</button>
+              <button class="large-btn btn-white">Get started free</button>
+            </div>
+            <p>
+              Get a demo of our premium software, or get started with free
+              tools.
+            </p>
+          </div>
+          <div class="hero__image">
+            <img src="./images/homepage-hero-1.webp" alt=" hero image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="slider" class="slider__container">
+      <div class="container">
+        <p>
+          228,000+ customers in over 135 countries grow their businesses with
+          HubSpot
+        </p>
+        <div class="slider__wrapper">
+          <div class="slider__arrow"><span> &lt; </span></div>
+          <div class="slider__contents">
+            <img src="./images/slider/logo-1.webp" alt="" />
+            <img src="./images/slider/logo-2.webp" alt="" />
+            <img src="./images/slider/logo-3.webp" alt="" />
+            <img src="./images/slider/logo-4.webp" alt="" />
+            <img src="./images/slider/logo-5.webp" alt="" />
+          </div>
+          <div class="slider__arrow"><span> &gt; </span></div>
+        </div>
+      </div>
+    </section>
+    <section id="market" class="market__container">
+      <div class="container">
+        <div class="market__wrapper">
+          <div class="market__image">
+            <img src="./images/HubSpot-for-marketer-sm.jpg" alt="market" />
+          </div>
+          <div class="market__text">
+            <h2>Drive Results With HubSpot for Marketers</h2>
+            <p>
+              With HubSpot, it’s never been easier to be a marketer. Marketing
+              Hub and Content Hub combine to give you world-class lead
+              generation, marketing automation, and content marketing tools to
+              drive revenue.
+            </p>
+            <div class="btn__group">
+              <button class="large-btn btn-orange">Get a demo</button>
+              <button class="large-btn btn-white">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services__container">
+      <div class="container">
+        <div class="services__hero">
+          <img
+            src="./images/crm-platform-asset-1.webp"
+            alt="services hero image"
+          />
+          <div class="services__hero-text">
+            <h2>Your whole front office. One customer platform.</h2>
+            <p>
+              HubSpot brings your marketing, sales, and service teams together
+              on the same AI-powered customer platform. It's easy to use,
+              provides value fast, and gives all teams a unified view of the
+              customer at every stage in their journey. Each product in the
+              platform is powerful on its own, but the real magic happens when
+              you use them together.
+            </p>
+            <div class="btn__group">
+              <button class="large-btn btn-orange">Get a demo</button>
+              <button class="large-btn btn-white">Get started free</button>
+            </div>
+          </div>
+        </div>
+        <div class="services__main">
+          <div class="card__service card__col">
+            <div class="service__content">
+              <div class="service__name">
+                <img
+                  src="./images/services/MarketingHub_Icon_2023_Gradient_RGB_24px.svg"
+                  alt="marketing hub service"
+                  style="width: 30px"
+                />
+                <span>Marketing Hub <sup>&#x00AE;</sup></span>
+              </div>
+              <p>
+                AI-powered marketing software that helps you generate leads and
+                automate marketing.
+              </p>
+            </div>
+            <div class="service__features">
+              <span>Popular Features</span>
+              <ul>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Breeze social media agent</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Marketing automation</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Analytics</p>
+                </li>
+              </ul>
+              <button class="btn-full btn-orange">Learn more</button>
+            </div>
+          </div>
+          <div class="card__service card__col">
+            <div class="service__content">
+              <div class="service__name">
+                <img
+                  src="./images/services/SalesHub_Icon_Gradient_RGB_24px.svg"
+                  alt="sales hub service"
+                  style="width: 30px"
+                />
+                <span>Sales Hub <sup>&#x00AE;</sup></span>
+              </div>
+              <p>
+                Easy-to-adopt sales software that leverages AI to build
+                pipelines and close deals.
+              </p>
+            </div>
+            <div class="service__features">
+              <span>Popular Features</span>
+              <ul>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Sales workspace</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Deal management</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Breeze prospecting agent</p>
+                </li>
+              </ul>
+              <button class="btn-full btn-orange">Learn more</button>
+            </div>
+          </div>
+          <div class="card__service card__col">
+            <div class="service__content">
+              <div class="service__name">
+                <img
+                  src="./images/services/ServiceHub_Icon_Gradient_RGB_24px.svg"
+                  alt="service hub service"
+                  style="width: 30px"
+                />
+                <span>Service Hub <sup>&#x00AE;</sup></span>
+              </div>
+              <p>
+                Customer service software powered by AI to scale support and
+                drive retention.
+              </p>
+            </div>
+            <div class="service__features">
+              <span>Popular Features</span>
+              <ul>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Omni-channel help desk</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Breeze customer agent</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Customer success workspace</p>
+                </li>
+              </ul>
+              <button class="btn-full btn-orange">Learn more</button>
+            </div>
+          </div>
+          <div class="card__service card__col">
+            <div class="service__content">
+              <div class="service__name">
+                <img
+                  src="./images/services/Product Icon one-1.svg"
+                  alt="content hub service"
+                  style="width: 30px"
+                />
+                <span>Content Hub <sup>&#8482;</sup></span>
+              </div>
+              <p>
+                All-in-one, AI-powered content marketing software that helps
+                marketers create and manage content.
+              </p>
+            </div>
+            <div class="service__features">
+              <span>Popular Features</span>
+              <ul>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Scalable CMS</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Brand voice</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Breeze content agent</p>
+                </li>
+              </ul>
+              <button class="btn-full btn-orange">Learn more</button>
+            </div>
+          </div>
+          <div class="card__service card__col">
+            <div class="service__content">
+              <div class="service__name">
+                <img
+                  src="./images/services/OperationsHub_Icon_Gradient_RGB_24px.svg"
+                  alt="operations hub service"
+                  style="width: 30px"
+                />
+                <span>Operations Hub <sup>&#x00AE;</sup></span>
+              </div>
+              <p>
+                Operations software that leverages AI to help you activate and
+                manage your data.
+              </p>
+            </div>
+            <div class="service__features">
+              <span>Popular Features</span>
+              <ul>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Data sync</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Programmable automation</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>AI-powered data quality automation</p>
+                </li>
+              </ul>
+              <button class="btn-full btn-orange">Learn more</button>
+            </div>
+          </div>
+          <div class="card__service card__col">
+            <div class="service__content">
+              <div class="service__name">
+                <img
+                  src="./images/services/Product_Icon_Only_CommerceHub.svg"
+                  alt="commerce hub service"
+                  style="width: 30px"
+                />
+                <span>Commerce Hub <sup>&#8482;</sup></span>
+              </div>
+              <p>
+                B2B commerce software designed to help you collect payments and
+                automate billing.
+              </p>
+            </div>
+            <div class="service__features">
+              <span>Popular Features</span>
+              <ul>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Invoices & subscriptions</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Quotes</p>
+                </li>
+                <li>
+                  <span>&#10003;</span>
+                  <p>Payment links</p>
+                </li>
+              </ul>
+              <button class="btn-full btn-orange">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="services__footer">
+          <div class="card__service card__row">
+            <div class="services__footer-text">
+              <h2>Small Business Bundle</h2>
+              <p>
+                The Starter edition of every HubSpot product, bundled together
+                at a discounted price for your startup or small business. Find
+                and reach customers, grow sales and get paid faster, and
+                organize customer data — all on one unified platform.
+              </p>
+              <button class="btn-full btn-orange">Learn more</button>
+            </div>
+            <div class="services__footer_cards">
+              <div class="footer__card">
+                <img
+                  src="./images/services/MarketingHub_Icon_2023_Gradient_RGB_24px.svg"
+                  alt="marketing hub service"
+                />
+                <span>Marketing Hub <sup>&#x00AE;</sup></span>
+              </div>
+              <div class="footer__card">
+                <img
+                  src="./images/services/SalesHub_Icon_Gradient_RGB_24px.svg"
+                  alt="sales hub service"
+                />
+                <span>Sales Hub <sup>&#x00AE;</sup></span>
+              </div>
+              <div class="footer__card">
+                <img
+                  src="./images/services/ServiceHub_Icon_Gradient_RGB_24px.svg"
+                  alt="service hub service"
+                />
+                <span>Service Hub <sup>&#x00AE;</sup></span>
+              </div>
+              <div class="footer__card">
+                <img
+                  src="./images/services/Product Icon one-1.svg"
+                  alt="content hub service"
+                />
+                <span>Content Hub <sup>&#8482;</sup></span>
+              </div>
+              <div class="footer__card">
+                <img
+                  src="./images/services/OperationsHub_Icon_Gradient_RGB_24px.svg"
+                  alt="operations hub service"
+                />
+                <span>Operations Hub <sup>&#x00AE;</sup></span>
+              </div>
+              <div class="footer__card">
+                <img
+                  src="./images/services/Product_Icon_Only_CommerceHub.svg"
+                  alt="commerce hub service"
+                />
+                <span>Commerce Hub <sup>&#8482;</sup></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="breeze" class="breeze__container">
+      <div class="container">
+        <div class="breeze__wrapper">
+          <div class="breeze__text">
+            <h2>Product Spotlight: Breeze</h2>
+            <p>
+              Use Breeze Copilot to assist with tasks, Breeze Agents to automate
+              your work, Breeze Intelligence to enrich your data, and a growing
+              list of Breeze features to help you get work done faster.
+            </p>
+          </div>
+          <div class="btn__group">
+            <button class="large-btn btn-white">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="solutions" class="solutions__container">
+      <div class="container">
+        <div class="solutions__wrapper">
+          <div class="solutions__text">
+            <h2>Solutions for every business</h2>
+            <p>
+              Growing a business isn’t easy, but we've got your back. Explore
+              some of our customers’ top business challenges and learn how
+              HubSpot’s integrated software and solutions can help you leave
+              these problems in the past.
+            </p>
+          </div>
+          <div class="solutions__cards">
+            <div class="solutions__card">
+              <div class="solutions__img">
+                <img
+                  src="./images/solutions/use-case-1-card-en@2x-1-1.webp"
+                  alt="solutions"
+                />
+              </div>
+              <div class="solutions__content">
+                <h4>Generate High-Quality Leads and Maximize Revenue</h4>
+                <p>
+                  Discover how to use AI-powered marketing tools to attract and
+                  convert more leads without multiplying your marketing spend.
+                </p>
+                <div class="solutions__btns">
+                  <button class="large-btn btn-orange">Learn more</button>
+                </div>
+              </div>
+            </div>
+            <div class="solutions__card">
+              <div class="solutions__img">
+                <img
+                  src="./images//solutions/use-case-2-close-deals (1).webp"
+                  alt="solutions"
+                />
+              </div>
+              <div class="solutions__content">
+                <h4>Accelerate Your Sales and Close More Deals Faster</h4>
+                <p>
+                  Start closing more deals faster and streamlining your sales
+                  process with HubSpot’s AI-powered deal management tools
+                </p>
+                <div class="solutions__btns">
+                  <button class="large-btn btn-orange">Learn more</button>
+                </div>
+              </div>
+            </div>
+            <div class="solutions__card">
+              <div class="solutions__img">
+                <img
+                  src="./images/solutions/Breeze homepage-sm-1.webp"
+                  alt="solutions"
+                />
+              </div>
+              <div class="solutions__content">
+                <h4>Create Content for Every Stage of the Customer Journey</h4>
+                <p>
+                  Fuel the entire customer journey with content across formats
+                  and channels with all-in-one, AI-powered content marketing
+                  software.
+                </p>
+                <div class="solutions__btns">
+                  <button class="large-btn btn-orange">Learn more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="customers" class="customers__container">
+      <div class="container">
+        <div class="customers__wrapper">
+          <div class="custumers__text">
+            <h2>HubSpot customers' results after 1 year:</h2>
+          </div>
+          <div class="customers__cards">
+            <div class="customers__card">
+              <div class="customers__img">
+                <img
+                  src="./images/costumers/2023_MarketingHub_SEO1-2.svg"
+                  alt="costumers solutions image"
+                />
+              </div>
+              <div class="customers__content">
+                <h3>114%</h3>
+                <p>more web traffic</p>
+              </div>
+            </div>
+            <div class="customers__card">
+              <div class="customers__img">
+                <img
+                  src="./images/costumers/2023_CRM_Deal_Tracking2-3.svg"
+                  alt="costumers solutions image"
+                />
+              </div>
+              <div class="customers__content">
+                <h3>55%</h3>
+                <p>more deals</p>
+              </div>
+            </div>
+            <div class="customers__card">
+              <div class="customers__img">
+                <img
+                  src="./images/costumers/2023_ServiceHub_Help_Desk_Ticket1-3.svg"
+                  alt="costumers Hub solutions image"
+                />
+              </div>
+              <div class="customers__content">
+                <h3>43%</h3>
+                <p>more tickets resolved</p>
+              </div>
+            </div>
+          </div>
+          <div class="customers__footer">
+            <h2>
+              HubSpot customers see improvement across their customer journey.
+              What could your ROI be?
+            </h2>
+            <button class="large-btn btn-base-white">See ROI report</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ourAps" class="ourAps__container">
+      <div class="container">
+        <div class="ourAps__wrapper">
+          <div class="ourAps__card">
+            <div class="aps__content">
+              <img src="./images/ourAps/gmail-icon-1.svg" alt="" />
+              <img src="./images/ourAps/shopify-icon-1.svg" alt="" />
+              <img src="./images/ourAps/mailchimp-icon-1.svg" alt="" />
+              <img src="./images/ourAps/zapier-icon-1.svg" alt="" />
+              <img src="./images/ourAps/google-ads-icon-1.svg" alt="" />
+              <img src="./images/ourAps/slack-icon-1.svg" alt="" />
+            </div>
+            <div class="aps__desc">
+              <span>1,600+ ways to connect your tools</span>
+              <a href="">View all apps</a>
+            </div>
+          </div>
+          <div class="ourAps__card">
+            <div class="aps__content">
+              <img src="./images/ourAps/badge-leader.png" alt="" />
+              <img src="./images/ourAps/bagde-most-implementable.png" alt="" />
+              <img src="./images/ourAps/badge-best-relationships.png" alt="" />
+              <img src="./images/ourAps/best-support-enterprise.png" alt="" />
+              <img
+                src="./images/ourAps/badge-best-results-mid-market.png"
+                alt=""
+              />
+              <img
+                src="./images/ourAps/badge-best-usability-enterprise.png"
+                alt=""
+              />
+            </div>
+            <div class="aps__desc">
+              <span>Voted #1 in 571 Reports</span>
+              <a href="">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="blogs" class="blogs__container">
+      <div class="container">
+        <div class="blogs__wrapper">
+          <div class="blogs__text">
+            <h2>Popular blog posts</h2>
+            <div class="blogs__line"></div>
+            <a href="./explore.html"> Explore the HubSpot blog</a>
+          </div>
+          <div class="blogs__cards">
+            <div class="blogs__card">
+              <div class="blogs__img">
+                <img
+                  src="./images/blogs/Untitled design (95).png"
+                  alt="Psychology image"
+                />
+              </div>
+              <div class="blogs__content">
+                <a href=""
+                  >The Psychology of Short-Form Content: Why We Love Bite-Sized
+                  Videos</a
+                >
+                <p>Erica Santiago</p>
+                <p>9/13/24</p>
+              </div>
+            </div>
+            <div class="blogs__card">
+              <div class="blogs__img">
+                <img
+                  src="./images/blogs/digital-course-pitfalls.jpeg"
+                  alt="digita; image"
+                />
+              </div>
+              <div class="blogs__content">
+                <a href=""
+                  >Learn from My Mistakes: 7 Digital Course Pitfalls to Skip</a
+                >
+                <p>Amy Porterfield</p>
+                <p>7/23/24</p>
+              </div>
+            </div>
+            <div class="blogs__card">
+              <div class="blogs__img">
+                <img
+                  src="./images/blogs/representation-in-marketing.png"
+                  alt="marketing image"
+                />
+              </div>
+              <div class="blogs__content">
+                <a href=""
+                  >How To Do Representation in Marketing the Right Way (+
+                  Consumer Perspectives)
+                </a>
+                <p>Sonia Thompson</p>
+                <p>7/23/24</p>
+              </div>
+            </div>
+            <div class="blogs__card">
+              <div class="blogs__img">
+                <img src="./images/blogs/ai-social-media.jpeg" alt="ai image" />
+              </div>
+              <div class="blogs__content">
+                <a href=""
+                  >How to Use AI For a More Effective Social Media Strategy,
+                  According to Ross Simmonds
+                </a>
+                <p>Ross Simmonds</p>
+                <p>8/28/24</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="using" class="using__container">
+      <div class="container">
+        <div class="using__wrapper">
+          <div class="using__text">
+            <h2>
+              HubSpot is already easy to use. But we're still here for you.
+            </h2>
+            <p>
+              We're here to help your whole team stay ahead of the curve as you
+              grow.
+            </p>
+          </div>
+          <div class="using__cards">
+            <div class="using__card">
+              <div class="using__img">
+                <img
+                  src="./images/using/three-blue-people-1-1.svg"
+                  alt="using solutions image"
+                />
+              </div>
+              <div class="using__content">
+                <a href="./customersupport"><h3>24/7 Customer Support</h3></a>
+                <p>
+                  Get help by calling, chatting with,or emailing our customer
+                  support team.
+                </p>
+              </div>
+            </div>
+            <div class="using__card">
+              <div class="using__img">
+                <img
+                  src="./images/using/red-shield-1-1.svg"
+                  alt="using solutions image"
+                />
+              </div>
+              <div class="using__content">
+                <a href="./onboarding"><h3>Onboarding Services</h3></a>
+                <p>
+                  Get up and running quickly with a personalized onboarding
+                  plan.
+                </p>
+              </div>
+            </div>
+            <div class="using__card">
+              <div class="using__img">
+                <img
+                  src="./images/using/book-bulb-1-1.svg"
+                  alt="using Hub solutions image"
+                />
+              </div>
+              <div class="using__content">
+                <a href="./courses"><h3>Free Courses & Certifications</h3></a>
+                <p>
+                  Grow your skills with free HubSpot Academy courses and
+                  certifications
+                </p>
+              </div>
+            </div>
+            <div class="using__card">
+              <div class="using__img">
+                <img
+                  src="./images/using/laptop-screen-1-1.svg"
+                  alt="using Hub solutions image"
+                />
+              </div>
+              <div class="using__content">
+                <a href="./tools"><h3>Developer Tools</h3></a>
+                <p>
+                  Build apps, develop custom integrations, and customize your
+                  site.
+                </p>
+              </div>
+            </div>
+            <div class="using__card">
+              <div class="using__img">
+                <img
+                  src="./images/using/target-1-1.svg"
+                  alt="using Hub solutions image"
+                />
+              </div>
+              <div class="using__content">
+                <a href="./startups"><h3>HubSpot for Startups</h3></a>
+                <p>
+                  Apply for special pricing, resources, and support for your
+                  startup.
+                </p>
+              </div>
+            </div>
+            <div class="using__card">
+              <div class="using__img">
+                <img
+                  src="./images/using/books-1-1.svg"
+                  alt="using Hub solutions image"
+                />
+              </div>
+              <div class="using__content">
+                <a href="./ebooks"><h3>Ebooks, Guides & Templates</h3></a>
+                <p>
+                  Check out our vast library of free resources, tools,
+                  templates, and more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="growing" class="growing__container">
+      <div class="container">
+        <div class="growing__wrapper">
+          <div class="grow__text">
+            <h2>Grow better with HubSpot today</h2>
+            <div class="btn__group">
+              <button class="large-btn btn-orange">Get a demo</button>
+              <button class="large-btn btn-white">Learn more</button>
+            </div>
+          </div>
+          <div class="growing__image">
+            <img
+              src="./images/grow/cta-content-block-asset-en@2x-2-1.png"
+              alt="grow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer" class="footer__container">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="upper__footer">
+            <div class="left__upper-footer">
+              <span>Popular Features</span>
+              <div class="left__upper-content">
+                <ul>
+                  <li>All products and features</li>
+                  <li>Free meeting scheduler app</li>
+                  <li>Breeze AI tools</li>
+                  <li>Email tracking software</li>
+                  <li>AI Content writer</li>
+                  <li>AI Website generator</li>
+                  <li>Email marketing software</li>
+                  <li>Lead management software</li>
+                  <li>AI Email writer</li>
+                </ul>
+                <ul>
+                  <li>Free Website builder</li>
+                  <li>Sales email templates</li>
+                  <li>Free online form builder</li>
+                  <li>Free chatbot builder</li>
+                  <li>Free live chat software</li>
+                  <li>Marketing Analytics</li>
+                  <li>Free landing page builder</li>
+                  <li>Free web hosting</li>
+                </ul>
+              </div>
+            </div>
+            <div class="right__upper-footer">
+              <div class="right__upper-content">
+                <div class="footer__section">
+                  <span>Free Tools</span>
+                  <ul>
+                    <li>See all free business tools</li>
+                    <li>AI Search grader</li>
+                    <li>Clip creator</li>
+                    <li>Website grader</li>
+                    <li>Make my persona</li>
+                    <li>Enail signature generator</li>
+                    <li>Bran dkit generator</li>
+                    <li>Blog ideas generator</li>
+                    <li>Invoice template generator</li>
+                    <li>Free business templates</li>
+                    <li>Guide creator</li>
+                    <li>Software comparitons</li>
+                    <li>Library</li>
+                    <li>Template marketplace</li>
+                    <li>Campaign assistant</li>
+                  </ul>
+                </div>
+                <div class="footer__section">
+                  <span>Company</span>
+                  <ul>
+                    <li>About us</li>
+                    <li>Careers</li>
+                    <li>Management team</li>
+                    <li>Board of directors</li>
+                    <li>Investor relations</li>
+                    <li>Blog</li>
+                    <li>Contact us</li>
+                  </ul>
+                </div>
+                <div class="footer__sections">
+                  <div class="footer__section">
+                    <span>Customer</span>
+                    <ul>
+                      <li>Customer support</li>
+                      <li>Join a local user group</li>
+                    </ul>
+                  </div>
+                  <div class="footer__section" style="margin-top: 150px">
+                    <span>Partners</span>
+                    <ul>
+                      <li>All partner programs</li>
+                      <li>Solutions partner program</li>
+                      <li>App partner program</li>
+                      <li>HubSpot for startups</li>
+                      <li>Affiliate Program</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="middle__footer"></div>
+          <div class="lower__footer"></div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
